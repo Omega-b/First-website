@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.htm"><img src="images/logo.png"></a>
+        <div class="nav-link" id="navlink">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.htm">HOME</a></li>
+                <li><a href="about.htm">ABOUT</a></li>
+                <li><a href="course.htm">COURSES</a></li>
+                <li><a href="blog.htm">BLOG</a></li>
+                <li><a href="contact.htm">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>CONTACT US</h1>
+</section>
+
+<!-- contact us -->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.7477553631256!2d76.99888291419481!3d10.982402458362483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859e52df39097%3A0x667128f963e90e8f!2sRoyal%20Sheraton%20Apartments!5e0!3m2!1sen!2sin!4v1625976355641!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ road,ABC building</h5>
+                    <p>Tamil nadu,IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9123187463</h5>
+                    <p>monday to sunday,10 AM-7 PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>alphamon898@gmail.com</h5>
+                    <p>Email Us For Query</p>
+                </span>
+            </div>
+
+        </div>
+        <div class="contact-col">
+            <form action="form handle.php" method="POST">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter subject" required>
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                <button class="hero-btn red-btn" type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>asdasdasdasdasda sdasd asd asdas da sd asda sd asdasdasdasd asdasdasdasd sadasdasd asd asd asd asd asds dasd asd <br> 
+        asdasdasdasdasda sdasd asd  asdas da sd asda sd asdasdasdasd asdasdasdasd sadasdasd asd asd asd asd asds dasd asd </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Boom Yt</p>
+</section>
+<script>
+    var navlinks = document.getElementById("navlink")
+
+    function showmenu() {
+        navlinks.style.right="0"
+    }
+
+    function hidemenu() {
+        navlinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>
+
+
+

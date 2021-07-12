@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.htm"><img src="images/logo.png"></a>
+        <div class="nav-link" id="navlink">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.htm">HOME</a></li>
+                <li><a href="about.htm">ABOUT</a></li>
+                <li><a href="course.htm">COURSES</a></li>
+                <li><a href="blog.htm">BLOG</a></li>
+                <li><a href="contact.htm">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <h1>OUR CERTIFICATE AND ONLINE COURSES</h1>
+</section>
+
+<!-- blog page content -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>OUR CERTIFICATE AND ONLINE COURSES</h2>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+            <br>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+            <br>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+            <br>
+            <p>Paragraphs are the building blocks of papers. Many students define paragraphs in terms of length: a paragraph is a group of at least five sentences, a paragraph is half a page long, etc. In reality, though, the unity and coherence of ideas among sentences is what constitutes a paragraph.</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>19</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>30</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>15</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>asdasdasdasdasda sdasd asd asdas da sd asda sd asdasdasdasd asdasdasdasd sadasdasd asd asd asd asd asds dasd asd 
+        asdasdasdasdasda sdasd asd <br> asdas da sd asda sd asdasdasdasd asdasdasdasd sadasdasd asd asd asd asd asds dasd asd </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Boom Yt</p>
+</section>
+<script>
+    var navlinks = document.getElementById("navlink")
+
+    function showmenu() {
+        navlinks.style.right="0"
+    }
+
+    function hidemenu() {
+        navlinks.style.right='-200px'
+    }
+</script>
+</body>
+</html>
+
+
+
